@@ -224,6 +224,8 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Web.config" />
     <Content Include="Views\Gigs\Attending.cshtml" />
+    <None Include="Properties\PublishProfiles\gighubdc - Web Deploy.pubxml" />
+    <Content Include="Views\Gigs\Mine.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
