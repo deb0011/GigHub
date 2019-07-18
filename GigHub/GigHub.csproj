@@ -168,6 +168,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\GigsController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -201,6 +202,10 @@
     <Compile Include="Migrations\201907181548525_fixforgigmodel.Designer.cs">
       <DependentUpon>201907181548525_fixforgigmodel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907181835265_cancelflag.cs" />
+    <Compile Include="Migrations\201907181835265_cancelflag.Designer.cs">
+      <DependentUpon>201907181835265_cancelflag.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -224,6 +229,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootbox.js" />
+    <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Web.config" />
@@ -300,6 +307,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907181548525_fixforgigmodel.resx">
       <DependentUpon>201907181548525_fixforgigmodel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907181835265_cancelflag.resx">
+      <DependentUpon>201907181835265_cancelflag.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
