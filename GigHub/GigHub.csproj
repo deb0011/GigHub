@@ -197,6 +197,10 @@
     <Compile Include="Migrations\201906021657593_AddFollowing.Designer.cs">
       <DependentUpon>201906021657593_AddFollowing.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907181548525_fixforgigmodel.cs" />
+    <Compile Include="Migrations\201907181548525_fixforgigmodel.Designer.cs">
+      <DependentUpon>201907181548525_fixforgigmodel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -272,7 +276,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Gigs\Create.cshtml" />
+    <Content Include="Views\Gigs\GigForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -293,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906021657593_AddFollowing.resx">
       <DependentUpon>201906021657593_AddFollowing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907181548525_fixforgigmodel.resx">
+      <DependentUpon>201907181548525_fixforgigmodel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
